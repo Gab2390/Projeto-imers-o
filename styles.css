@@ -1,0 +1,65 @@
+body {
+    background-image: url("nirvana.jpg"); /* Caminho correto da imagem */
+    background-size: cover; /* Faz a imagem cobrir toda a área */
+    background-repeat: no-repeat; /* Não repete a imagem */
+    background-attachment: fixed; /* A imagem fica fixa ao rolar a página */
+    background-color: #f2f2f2; /* Cor de fundo do body */
+    margin: 0; /* Remove margens padrão */
+    padding: 0; /* Remove preenchimento padrão */
+    color: #fff; /* Cor da fonte para branco */
+}
+
+header {
+    background-color: rgba(0, 0, 0, 0.5); /* Fundo preto semitransparente */
+    padding: 10px; /* Adiciona um pouco de preenchimento */
+}
+
+header h1 {
+    color: #fff; /* Cor branca para o título */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Sombra para melhorar a legibilidade */
+}
+
+.banda {
+    margin: 20px; /* Adiciona margem entre as bandas */
+    padding: 10px; /* Adiciona preenchimento interno */
+    background-color: rgba(255, 255, 255, 0.8); /* Fundo branco com transparência */
+    border-radius: 8px; /* Bordas arredondadas */
+    color: #000; /* Cor do texto dentro das bandas para preto */
+}
+
+footer {
+    background-color: rgba(0, 0, 0, 0.5); /* Fundo preto semitransparente */
+    padding: 10px; /* Adiciona um pouco de preenchimento */
+    text-align: center; /* Centraliza o texto */
+}
+
+footer p {
+    color: #fff; /* Cor branca para o copyright */
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5); /* Sombra para melhorar a legibilidade */
+}
+
+.barra-pesquisa {
+    margin: 20px; /* Margem ao redor da barra de pesquisa */
+    text-align: center; /* Centraliza o conteúdo */
+}
+
+.barra-pesquisa input {
+    padding: 10px; /* Preenchimento interno do input */
+    width: 200px; /* Largura do input */
+    border: 1px solid #ccc; /* Borda do input */
+    border-radius: 5px; /* Bordas arredondadas */
+}
+
+.barra-pesquisa button {
+    padding: 10px; /* Preenchimento interno do botão */
+    margin-left: 5px; /* Margem à esquerda do botão */
+    border: none; /* Remove a borda padrão */
+    background-color: #333; /* Cor de fundo do botão */
+    color: #fff; /* Cor do texto do botão */
+    border-radius: 5px; /* Bordas arredondadas */
+    cursor: pointer; /* Muda o cursor ao passar sobre o botão */
+}
+
+.barra-pesquisa button:hover {
+    background-color: #555; /* Cor do botão ao passar o mouse */
+}

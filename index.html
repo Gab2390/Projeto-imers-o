@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Lendas do Grunge</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <h1>Lendas do Grunge</h1>
+  </header>
+  <div class="barra-pesquisa">
+    <input type="text" id="searchInput" placeholder="Pesquisar bandas...">
+    <button onclick="pesquisar()">Pesquisar</button>
+  </div>
+  <main>
+    <section class="bandas">
+      <article class="banda">
+        <h2>Nirvana</h2>
+        <img src="nirvana.jpg" alt="Foto da banda Nirvana">
+        <p>O Nirvana foi uma banda de rock norte-americana que revolucionou a música nos anos 90. Com Kurt Cobain no vocal e guitarra, Krist Novoselic no baixo e Dave Grohl na bateria, o trio de Seattle liderou o movimento grunge, um som caracterizado por guitarras distorcidas, letras introspectivas e uma atitude rebelde. Álbuns como "Nevermind" e hits como "Smells Like Teen Spirit" os catapultararam para a fama mundial, mas a morte trágica de Cobain em 1994 marcou o fim prematuro da banda, que deixou um legado duradouro na história do rock.</p>
+      </article>
+      <article class="banda">
+        <h2>Alice in Chains</h2>
+        <img src="alice_in_chains.jpg" alt="Foto da banda Alice in Chains">
+        <p>Os Alice in Chains foram uma das bandas mais influentes do movimento grunge, ao lado do Nirvana. Com Layne Staley no vocal, Jerry Cantrell na guitarra, Mike Starr no baixo e Sean Kinney na bateria, o quarteto de Seattle conquistou fãs ao redor do mundo com seu som pesado e letras introspectivas, muitas vezes abordando temas como vício e angústia. Hits como "Man in the Box" e "Would?" os tornaram um dos pilares do grunge, e seu legado continua a inspirar novas gerações de músicos.</p>
+      </article>
+    </section>
+    <button id="mostrarBio">Mostrar Bio</button>
+    <div id="resultado"></div> <!-- Área para mostrar os resultados -->
+  </main>
+  <footer>
+    <p>© 2024 - Todos os direitos reservados</p>
+  </footer>
+  <script src="dados.js"></script>
+  <script src="app.js"></script>        
+</body>
